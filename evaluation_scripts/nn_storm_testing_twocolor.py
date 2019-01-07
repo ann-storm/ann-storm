@@ -175,7 +175,7 @@ def main(_):
     DATA_DIR = '../evaluation_data/fig4_color/'
     OUT_DIR = '../evaluation_data/'
 
-    dataindex = [6, 7, 8]
+    dataindex = [4, 5, 6, 7, 8]
 
     for i in range(len(dataindex)):
         TEST_IMAGES = DATA_DIR + 'test_data_ref_' + str(dataindex[i]) + '.mat'

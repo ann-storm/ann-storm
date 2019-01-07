@@ -150,7 +150,7 @@ def main(_):
 
     saver = tf.train.Saver()
     saver.restore(sess, FLAGS.cpt_file)
-    dataindex = [6, 7, 8]
+    dataindex = [4, 5, 6, 7, 8]
     DATA_DIR = '../evaluation_data/fig4_z/'
 
     for i in range(len(dataindex)):
