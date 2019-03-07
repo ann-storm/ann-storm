@@ -10,6 +10,8 @@ Tensorflow (https://tensorflow.org) library installation is required. (Tested ve
 
 * training_data: Single molecule images of AF647/CF568 dyes for color classification/axial position estimation (.mat format). Please refer to the Methods section in the manuscript for the detils of the acquisition process.
 
+* pre-trained model checkpoint files for Fig. 4 are available here: https://drive.google.com/open?id=112irADiG5JeXUGZro3Yt_qbZxDkWVM9N 
+
 # Evaluation
 
 * evaluation_scripts: Python scripts for the inferrence of color/z position of the input single molecule images. .ckpt files in /trained_models are used.
